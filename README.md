@@ -27,10 +27,11 @@ Deployment instructions
     •	Run the ServerMain and  press the “Start Server” button on the GUI.
     •	Run the ClientMain, insert the username (no longer than 20 characters) and press the “Connect” button on the GUI.
     Possible problems
+    =================
     The possible problems when trying to run the application:
     •	When connecting the client chat it presents a “Connection Error” pop out box with a message “Could not establish a link with the server”.  Follow these instructions:
-    o	Make sure that the server is running (when the server is running the “Start Server” button in Server GUI is set to disabled, hence u can’t click it).
-    o	If the server is running properly make sure that the portNumber of ClientMain.java reflects the portNumber of ServerMain.java, if it doesn’t reflect it then change the portNumber in ClientMain.java and re-launch the client chat (no need to re-launch the server).
+        o	Make sure that the server is running (when the server is running the “Start Server” button in Server GUI is set to disabled, hence u can’t click it).
+        o	If the server is running properly make sure that the portNumber of ClientMain.java reflects the portNumber of ServerMain.java, if it doesn’t reflect it then change the portNumber in ClientMain.java and re-launch the client chat (no need to re-launch the server).
     •	When connecting the server it presents a “Port Error” pop out box with a message “Can’t attach to the port number xxx” where xxx is the portNumber used for Server. Follow these instructions:
-    o	Make sure that the server is not already running (hence, u can’t launch two servers using the same portNumber).
-    o	If there is no other server (of this application) running, then try another port number (see the Configurations section above for more detail).
+        o	Make sure that the server is not already running (hence, u can’t launch two servers using the same portNumber).
+        o	If there is no other server (of this application) running, then try another port number (see the Configurations section above for more detail).
